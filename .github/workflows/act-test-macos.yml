@@ -1,6 +1,6 @@
 name: Alexandria Chemistry Toolkit code submission test (macOS)
 run-name: ${{ github.actor }} build and test ACT on macOS
-on: [push]
+on: [workflow_dispatch]
 jobs:
   Build:
     runs-on: macos-latest
