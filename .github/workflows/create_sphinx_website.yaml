@@ -1,10 +1,10 @@
 name: Create Sphinx website
 
 on:
-  push:
-    branches:
-      - main
-      - website
+  # push:
+  #   branches:
+  #     - main
+  #     - website
   pull_request:
     branches:
       - main
