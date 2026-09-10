@@ -1,6 +1,6 @@
 name: Alexandria Chemistry Toolkit code submission test
 run-name: ${{ github.actor }} build and test ACT
-on: [push]
+on: [workflow_dispatch]
 jobs:
   Build:
     runs-on: ubuntu-latest
